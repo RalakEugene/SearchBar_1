@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /*padding: 5%;*/
+    /*background-image: linear-gradient(rgba(51, 0, 8, 0.9),rgba(51, 0, 8, 0.9)),url(/images/robert-ritchie-3BLry98ZLA4-unsplash.jpg);*/
+    background-image: url(./images/robert-ritchie-3BLry98ZLA4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.search-bar input{
+    flex: 1;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+.search-bar button{
+    font-size: 20px;
+    color: grey;
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #e7caca;
+    cursor: pointer;
+}
